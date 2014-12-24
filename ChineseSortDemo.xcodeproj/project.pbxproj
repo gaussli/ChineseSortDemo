@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A7AFEB1A4A548A00A4BE6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFEA1A4A548A00A4BE6E /* Foundation.framework */; };
+		B4A7AFED1A4A548A00A4BE6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFEC1A4A548A00A4BE6E /* CoreGraphics.framework */; };
+		B4A7AFEF1A4A548A00A4BE6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFEE1A4A548A00A4BE6E /* UIKit.framework */; };
+		B4A7AFF11A4A548A00A4BE6E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFF01A4A548A00A4BE6E /* CoreData.framework */; };
+		B4A7AFF71A4A548A00A4BE6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4A7AFF51A4A548A00A4BE6E /* InfoPlist.strings */; };
+		B4A7AFF91A4A548A00A4BE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7AFF81A4A548A00A4BE6E /* main.m */; };
+		B4A7AFFD1A4A548A00A4BE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7AFFC1A4A548A00A4BE6E /* AppDelegate.m */; };
+		B4A7B0001A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4A7AFFE1A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodeld */; };
+		B4A7B0021A4A548A00A4BE6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A7B0011A4A548A00A4BE6E /* Images.xcassets */; };
+		B4A7B0091A4A548A00A4BE6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7B0081A4A548A00A4BE6E /* XCTest.framework */; };
+		B4A7B00A1A4A548A00A4BE6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFEA1A4A548A00A4BE6E /* Foundation.framework */; };
+		B4A7B00B1A4A548A00A4BE6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFEE1A4A548A00A4BE6E /* UIKit.framework */; };
+		B4A7B00C1A4A548A00A4BE6E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A7AFF01A4A548A00A4BE6E /* CoreData.framework */; };
+		B4A7B0141A4A548A00A4BE6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4A7B0121A4A548A00A4BE6E /* InfoPlist.strings */; };
+		B4A7B0161A4A548A00A4BE6E /* ChineseSortDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7B0151A4A548A00A4BE6E /* ChineseSortDemoTests.m */; };
+		B4A7B0231A4A553F00A4BE6E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7B0221A4A553F00A4BE6E /* MainViewController.m */; };
+		B4A7B02C1A4AA47000A4BE6E /* SubChineseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7B02B1A4AA47000A4BE6E /* SubChineseInfo.m */; };
+		B4A7B0321A4AAADC00A4BE6E /* JHChineseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7B02F1A4AAADC00A4BE6E /* JHChineseInfo.m */; };
+		B4A7B0331A4AAADC00A4BE6E /* JHChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7B0311A4AAADC00A4BE6E /* JHChineseSort.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4A7B00D1A4A548A00A4BE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4A7AFDF1A4A548A00A4BE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A7AFE61A4A548A00A4BE6E;
+			remoteInfo = ChineseSortDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4A7AFE71A4A548A00A4BE6E /* ChineseSortDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseSortDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A7AFEA1A4A548A00A4BE6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4A7AFEC1A4A548A00A4BE6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4A7AFEE1A4A548A00A4BE6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4A7AFF01A4A548A00A4BE6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B4A7AFF41A4A548A00A4BE6E /* ChineseSortDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChineseSortDemo-Info.plist"; sourceTree = "<group>"; };
+		B4A7AFF61A4A548A00A4BE6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4A7AFF81A4A548A00A4BE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4A7AFFA1A4A548A00A4BE6E /* ChineseSortDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseSortDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B4A7AFFB1A4A548A00A4BE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4A7AFFC1A4A548A00A4BE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4A7AFFF1A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChineseSortDemo.xcdatamodel; sourceTree = "<group>"; };
+		B4A7B0011A4A548A00A4BE6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4A7B0071A4A548A00A4BE6E /* ChineseSortDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseSortDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A7B0081A4A548A00A4BE6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B4A7B0111A4A548A00A4BE6E /* ChineseSortDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChineseSortDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B4A7B0131A4A548A00A4BE6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4A7B0151A4A548A00A4BE6E /* ChineseSortDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseSortDemoTests.m; sourceTree = "<group>"; };
+		B4A7B0211A4A553F00A4BE6E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B4A7B0221A4A553F00A4BE6E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B4A7B02A1A4AA47000A4BE6E /* SubChineseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubChineseInfo.h; sourceTree = "<group>"; };
+		B4A7B02B1A4AA47000A4BE6E /* SubChineseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubChineseInfo.m; sourceTree = "<group>"; };
+		B4A7B02E1A4AAADC00A4BE6E /* JHChineseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChineseInfo.h; sourceTree = "<group>"; };
+		B4A7B02F1A4AAADC00A4BE6E /* JHChineseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChineseInfo.m; sourceTree = "<group>"; };
+		B4A7B0301A4AAADC00A4BE6E /* JHChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChineseSort.h; sourceTree = "<group>"; };
+		B4A7B0311A4AAADC00A4BE6E /* JHChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChineseSort.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A7AFE41A4A548A00A4BE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A7AFED1A4A548A00A4BE6E /* CoreGraphics.framework in Frameworks */,
+				B4A7AFF11A4A548A00A4BE6E /* CoreData.framework in Frameworks */,
+				B4A7AFEF1A4A548A00A4BE6E /* UIKit.framework in Frameworks */,
+				B4A7AFEB1A4A548A00A4BE6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A7B0041A4A548A00A4BE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A7B0091A4A548A00A4BE6E /* XCTest.framework in Frameworks */,
+				B4A7B00C1A4A548A00A4BE6E /* CoreData.framework in Frameworks */,
+				B4A7B00B1A4A548A00A4BE6E /* UIKit.framework in Frameworks */,
+				B4A7B00A1A4A548A00A4BE6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A7AFDE1A4A548A00A4BE6E = {
+			isa = PBXGroup;
+			children = (
+				B4A7B02D1A4AAADC00A4BE6E /* JHChineseSort */,
+				B4A7B0201A4A553600A4BE6E /* MainViewController */,
+				B4A7AFF21A4A548A00A4BE6E /* ChineseSortDemo */,
+				B4A7B00F1A4A548A00A4BE6E /* ChineseSortDemoTests */,
+				B4A7AFE91A4A548A00A4BE6E /* Frameworks */,
+				B4A7AFE81A4A548A00A4BE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A7AFE81A4A548A00A4BE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7AFE71A4A548A00A4BE6E /* ChineseSortDemo.app */,
+				B4A7B0071A4A548A00A4BE6E /* ChineseSortDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A7AFE91A4A548A00A4BE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7AFEA1A4A548A00A4BE6E /* Foundation.framework */,
+				B4A7AFEC1A4A548A00A4BE6E /* CoreGraphics.framework */,
+				B4A7AFEE1A4A548A00A4BE6E /* UIKit.framework */,
+				B4A7AFF01A4A548A00A4BE6E /* CoreData.framework */,
+				B4A7B0081A4A548A00A4BE6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4A7AFF21A4A548A00A4BE6E /* ChineseSortDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7AFFB1A4A548A00A4BE6E /* AppDelegate.h */,
+				B4A7AFFC1A4A548A00A4BE6E /* AppDelegate.m */,
+				B4A7B0011A4A548A00A4BE6E /* Images.xcassets */,
+				B4A7AFFE1A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodeld */,
+				B4A7AFF31A4A548A00A4BE6E /* Supporting Files */,
+			);
+			path = ChineseSortDemo;
+			sourceTree = "<group>";
+		};
+		B4A7AFF31A4A548A00A4BE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7AFF41A4A548A00A4BE6E /* ChineseSortDemo-Info.plist */,
+				B4A7AFF51A4A548A00A4BE6E /* InfoPlist.strings */,
+				B4A7AFF81A4A548A00A4BE6E /* main.m */,
+				B4A7AFFA1A4A548A00A4BE6E /* ChineseSortDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4A7B00F1A4A548A00A4BE6E /* ChineseSortDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7B0151A4A548A00A4BE6E /* ChineseSortDemoTests.m */,
+				B4A7B0101A4A548A00A4BE6E /* Supporting Files */,
+			);
+			path = ChineseSortDemoTests;
+			sourceTree = "<group>";
+		};
+		B4A7B0101A4A548A00A4BE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7B0111A4A548A00A4BE6E /* ChineseSortDemoTests-Info.plist */,
+				B4A7B0121A4A548A00A4BE6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4A7B0201A4A553600A4BE6E /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7B0211A4A553F00A4BE6E /* MainViewController.h */,
+				B4A7B0221A4A553F00A4BE6E /* MainViewController.m */,
+				B4A7B02A1A4AA47000A4BE6E /* SubChineseInfo.h */,
+				B4A7B02B1A4AA47000A4BE6E /* SubChineseInfo.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		B4A7B02D1A4AAADC00A4BE6E /* JHChineseSort */ = {
+			isa = PBXGroup;
+			children = (
+				B4A7B02E1A4AAADC00A4BE6E /* JHChineseInfo.h */,
+				B4A7B02F1A4AAADC00A4BE6E /* JHChineseInfo.m */,
+				B4A7B0301A4AAADC00A4BE6E /* JHChineseSort.h */,
+				B4A7B0311A4AAADC00A4BE6E /* JHChineseSort.m */,
+			);
+			path = JHChineseSort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A7AFE61A4A548A00A4BE6E /* ChineseSortDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A7B0191A4A548A00A4BE6E /* Build configuration list for PBXNativeTarget "ChineseSortDemo" */;
+			buildPhases = (
+				B4A7AFE31A4A548A00A4BE6E /* Sources */,
+				B4A7AFE41A4A548A00A4BE6E /* Frameworks */,
+				B4A7AFE51A4A548A00A4BE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseSortDemo;
+			productName = ChineseSortDemo;
+			productReference = B4A7AFE71A4A548A00A4BE6E /* ChineseSortDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4A7B0061A4A548A00A4BE6E /* ChineseSortDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A7B01C1A4A548A00A4BE6E /* Build configuration list for PBXNativeTarget "ChineseSortDemoTests" */;
+			buildPhases = (
+				B4A7B0031A4A548A00A4BE6E /* Sources */,
+				B4A7B0041A4A548A00A4BE6E /* Frameworks */,
+				B4A7B0051A4A548A00A4BE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A7B00E1A4A548A00A4BE6E /* PBXTargetDependency */,
+			);
+			name = ChineseSortDemoTests;
+			productName = ChineseSortDemoTests;
+			productReference = B4A7B0071A4A548A00A4BE6E /* ChineseSortDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A7AFDF1A4A548A00A4BE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gaussli;
+				TargetAttributes = {
+					B4A7B0061A4A548A00A4BE6E = {
+						TestTargetID = B4A7AFE61A4A548A00A4BE6E;
+					};
+				};
+			};
+			buildConfigurationList = B4A7AFE21A4A548A00A4BE6E /* Build configuration list for PBXProject "ChineseSortDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4A7AFDE1A4A548A00A4BE6E;
+			productRefGroup = B4A7AFE81A4A548A00A4BE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A7AFE61A4A548A00A4BE6E /* ChineseSortDemo */,
+				B4A7B0061A4A548A00A4BE6E /* ChineseSortDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A7AFE51A4A548A00A4BE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A7AFF71A4A548A00A4BE6E /* InfoPlist.strings in Resources */,
+				B4A7B0021A4A548A00A4BE6E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A7B0051A4A548A00A4BE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A7B0141A4A548A00A4BE6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A7AFE31A4A548A00A4BE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A7B0001A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodeld in Sources */,
+				B4A7AFFD1A4A548A00A4BE6E /* AppDelegate.m in Sources */,
+				B4A7AFF91A4A548A00A4BE6E /* main.m in Sources */,
+				B4A7B0321A4AAADC00A4BE6E /* JHChineseInfo.m in Sources */,
+				B4A7B0231A4A553F00A4BE6E /* MainViewController.m in Sources */,
+				B4A7B02C1A4AA47000A4BE6E /* SubChineseInfo.m in Sources */,
+				B4A7B0331A4AAADC00A4BE6E /* JHChineseSort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A7B0031A4A548A00A4BE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A7B0161A4A548A00A4BE6E /* ChineseSortDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4A7B00E1A4A548A00A4BE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A7AFE61A4A548A00A4BE6E /* ChineseSortDemo */;
+			targetProxy = B4A7B00D1A4A548A00A4BE6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4A7AFF51A4A548A00A4BE6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A7AFF61A4A548A00A4BE6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4A7B0121A4A548A00A4BE6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A7B0131A4A548A00A4BE6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4A7B0171A4A548A00A4BE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A7B0181A4A548A00A4BE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A7B01A1A4A548A00A4BE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseSortDemo/ChineseSortDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChineseSortDemo/ChineseSortDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4A7B01B1A4A548A00A4BE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseSortDemo/ChineseSortDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChineseSortDemo/ChineseSortDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B4A7B01D1A4A548A00A4BE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChineseSortDemo.app/ChineseSortDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseSortDemo/ChineseSortDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChineseSortDemoTests/ChineseSortDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B4A7B01E1A4A548A00A4BE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChineseSortDemo.app/ChineseSortDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseSortDemo/ChineseSortDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChineseSortDemoTests/ChineseSortDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A7AFE21A4A548A00A4BE6E /* Build configuration list for PBXProject "ChineseSortDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A7B0171A4A548A00A4BE6E /* Debug */,
+				B4A7B0181A4A548A00A4BE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A7B0191A4A548A00A4BE6E /* Build configuration list for PBXNativeTarget "ChineseSortDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A7B01A1A4A548A00A4BE6E /* Debug */,
+				B4A7B01B1A4A548A00A4BE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4A7B01C1A4A548A00A4BE6E /* Build configuration list for PBXNativeTarget "ChineseSortDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A7B01D1A4A548A00A4BE6E /* Debug */,
+				B4A7B01E1A4A548A00A4BE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4A7AFFE1A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4A7AFFF1A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodel */,
+			);
+			currentVersion = B4A7AFFF1A4A548A00A4BE6E /* ChineseSortDemo.xcdatamodel */;
+			path = ChineseSortDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4A7AFDF1A4A548A00A4BE6E /* Project object */;
+}
